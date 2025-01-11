@@ -1,0 +1,9 @@
+{
+  "label": "Panduan - Utama",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Berikut adalah panduan utama untuk menggunakan aplikasi setelah semua data dasar sudah dipenuhi."
+
+  }
+}
