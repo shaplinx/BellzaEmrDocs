@@ -1,12 +1,12 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Persyaratan Teknis
 
 Aplikasi Rekam Medis Elektronik yang terkoneksi dengan Satu Sehat memerlukan lingkungan yang sesuai dengan spesifikasi teknis berikut:
 
-## 1. Persyaratan Server Laravel 11
+## 1. Persyaratan Server
 
 - **Versi PHP**: PHP 8.2 atau lebih tinggi.
 - **Ekstensi PHP yang Dibutuhkan**:

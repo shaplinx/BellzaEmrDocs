@@ -18,7 +18,7 @@ Contoh jika aplikasi berjalan secara lokal:
 http://127.0.0.1:8000/user/login
 ```
 
-![Tampilan Login](./img/login.png)
+![Tampilan Login](./img/login.webp)
 
 ## 2. Data Login Awal
 Gunakan data login berikut untuk pertama kali:
@@ -31,7 +31,7 @@ Demi keamanan, sangat disarankan untuk segera mengganti email dan password defau
 
 1. Buka menu profil atau pengaturan pengguna di dalam aplikasi.
 
-![Tampilan Login](./img/profil.png)
+![Tampilan Login](./img/profile.webp)
 
 2. Masukkan data baru yang aman:
    - **Email**: Gunakan alamat email aktif yang Anda kendalikan.
