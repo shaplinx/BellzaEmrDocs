@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import tailwindPlugin from "./plugins/tailwind-config.cjs"; 
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -8,6 +9,7 @@ const config: Config = {
   title: 'Bellza Electronic Medical Record',
   tagline: 'Blitztening Fast',
   favicon: 'img/favicon.ico',
+  plugins: [tailwindPlugin],
 
   // Set the production url of your site here
   url: 'https://emr.bellza.id',
@@ -39,8 +41,6 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -68,9 +68,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Bellza EMR',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Bellza EMR Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -78,7 +78,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Panduan',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
