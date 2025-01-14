@@ -102,7 +102,7 @@ const Hero = () => {
                                 </div>
 
                                 <div className="col-span-2 md:col-span-1 flex items-center">
-        <BpjsLogo className='w-10'></BpjsLogo>
+                                    <BpjsLogo className='w-10'></BpjsLogo>
                                     <p className="ml-3 mb-0 text-sm text-white">BPJS (Segera Hadir)</p>
                                 </div>
                             </div>

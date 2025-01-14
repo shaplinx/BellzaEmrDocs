@@ -4,6 +4,7 @@ import Layout from '@theme/Layout';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
 import Pricing from '../components/Pricing';
+import Contact from '../components/Contact';
 
 
 export default function Home(): ReactNode {
@@ -16,6 +17,7 @@ export default function Home(): ReactNode {
       <main>
       <Features></Features>
       <Pricing></Pricing>
+      <Contact></Contact>
       </main>
     </Layout>
   );
